@@ -11,6 +11,6 @@ public class Move : MonoBehaviour
 
 	void Start()
 	{
-		transform.DOMove(_randomPosition, _duration).SetLoops( _repeats, _loopType);
+		transform.DOMove(_randomPosition, _duration).SetLoops(_repeats, _loopType);
 	}
 }

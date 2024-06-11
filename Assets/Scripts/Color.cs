@@ -10,6 +10,6 @@ public class Color : MonoBehaviour
 
 	void Start()
 	{
-		_spriteRenderer.DOColor(_color,_duration);
+		_spriteRenderer.DOColor(_color, _duration);
 	}
 }
