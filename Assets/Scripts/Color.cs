@@ -8,7 +8,7 @@ public class Color : MonoBehaviour
 
 	private float _duration = 2f;
 
-	void Start()
+	private void Start()
 	{
 		_spriteRenderer.DOColor(_color, _duration);
 	}
