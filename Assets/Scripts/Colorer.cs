@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-public class Color : MonoBehaviour
+public class Colorer : DORepeatedTransform
 {
 	[SerializeField] private SpriteRenderer _spriteRenderer;
 	[SerializeField] private Color32 _color;
@@ -10,6 +10,6 @@ public class Color : MonoBehaviour
 
 	private void Start()
 	{
-		_spriteRenderer.DOColor(_color, _duration);
+		_spriteRenderer.DOColor(_color, _duration).SetLoops(Repeats, LoopType);
 	}
 }

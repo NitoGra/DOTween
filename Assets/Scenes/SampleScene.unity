@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc6d57fc263c5f41977a35cc180bd9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loopType: 1
+  LoopType: 1
 --- !u!114 &442164566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c8322c958935443a474dbca6102514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loopType: 1
+  LoopType: 1
 --- !u!114 &442164567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,7 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d2a89e630af3c248952f82fdc7d08cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loopType: 1
+  LoopType: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,14 +691,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564402780}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.44266525, y: 0.45007068, z: 0.2746963, w: 0.72527635}
   m_LocalPosition: {x: -1.63, y: 4.4308486, z: -13.074239}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1029132228}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 23.256, y: 77.237, z: 60.158}
 --- !u!65 &1564402783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -782,7 +782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c8322c958935443a474dbca6102514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loopType: 1
+  LoopType: 1
 --- !u!1 &1689257960
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,7 +901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d2a89e630af3c248952f82fdc7d08cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loopType: 1
+  LoopType: 1
 --- !u!1 &1838159458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,7 +1022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc6d57fc263c5f41977a35cc180bd9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loopType: 1
+  LoopType: 1
 --- !u!1 &1909861134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,6 +1068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45958910a8c4194f9f4d00b6b0ea3df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoopType: 1
   _spriteRenderer: {fileID: 1909861137}
   _color:
     serializedVersion: 2
